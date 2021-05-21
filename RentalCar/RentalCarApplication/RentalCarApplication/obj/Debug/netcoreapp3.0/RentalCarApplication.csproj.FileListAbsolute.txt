@@ -1,0 +1,8 @@
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication\obj\Debug\netcoreapp3.0\RentalCarApplication.csprojAssemblyReference.cache
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication\obj\Debug\netcoreapp3.0\View\HomeAdminWindow.g.cs
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication\obj\Debug\netcoreapp3.0\View\HomeUserWindow.g.cs
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication\obj\Debug\netcoreapp3.0\View\MainWindow.g.cs
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication\obj\Debug\netcoreapp3.0\App.g.cs
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication\obj\Debug\netcoreapp3.0\GeneratedInternalTypeHelper.g.cs
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication\obj\Debug\netcoreapp3.0\RentalCarApplication_MarkupCompile.cache
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication\obj\Debug\netcoreapp3.0\RentalCarApplication_MarkupCompile.lref

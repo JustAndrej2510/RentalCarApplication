@@ -1,0 +1,83 @@
+﻿<Window  x:Class="RentalCarApplication.View.CustomMessageBox.CustomMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MessageBoxWindow" Height="220" Width="500" 
+        WindowStartupLocation="CenterScreen" WindowStyle="None" Background="White" 
+        ResizeMode="NoResize" Topmost="True" ShowInTaskbar="False"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="10"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"        
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        >
+    <Grid materialDesign:ShadowAssist.ShadowDepth="Depth5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="197*"/>
+            <ColumnDefinition Width="295*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <materialDesign:Card x:Name="cardHeader" Grid.Row="0" Padding="10" Margin="0" materialDesign:ShadowAssist.ShadowDepth="Depth2"   Background="{DynamicResource PrimaryHueMidBrush}" Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}" Visibility="Visible" Grid.ColumnSpan="2">
+            <StackPanel >
+                <TextBlock x:Name="txtTitle" HorizontalAlignment="Center" VerticalAlignment="Stretch" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="20" >Message Title</TextBlock>
+            </StackPanel>
+        </materialDesign:Card>
+        <StackPanel  HorizontalAlignment="Right" Margin="0,5,5,0"  VerticalAlignment="Top" Grid.Column="1">
+            <Button x:Name="btnClose" Click="btnClose_Click" Width="35" Height="35"  Background="White" Foreground="{DynamicResource PrimaryHueDarkBrush}" Style="{StaticResource MaterialDesignFloatingActionDarkButton}">
+                <materialDesign:PackIcon Kind="Close" />
+            </Button>
+        </StackPanel>
+        <Grid Grid.Row="1" Grid.ColumnSpan="2" Background="Honeydew">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+                        <materialDesign:PackIcon x:Name="ConfirmationIcon" Kind="HelpCircleOutline" Width="40" Height="40" Foreground="DarkRed" Visibility="Collapsed" />
+                        <materialDesign:PackIcon x:Name="InfoIcon" Kind="InformationOutline" Width="40" Height="40" Foreground="Gold" Visibility="Collapsed" />
+                        <materialDesign:PackIcon x:Name="SuccessIcon" Kind="CheckCircleOutline" Width="40" Height="40" Foreground="Green" Visibility="Collapsed" />
+                        <materialDesign:PackIcon x:Name="ErrorIcon" Kind="CloseCircleOutline" Width="40" Height="40" Foreground="Red" Visibility="Collapsed" />
+                        <TextBox x:Name="txtMessage" Width="400" Text="dsdf sdf dfgdf dfg dfg dfgdffdgfgdfg sd" VerticalAlignment="Center"  IsReadOnly="True" Grid.Row="0" Margin="5"  FontSize="18" Style="{StaticResource MaterialDesignDataGridComboBoxEditableTextBox}" TextWrapping="Wrap" />
+                    </StackPanel>
+
+                    <!--<materialDesign:TransitioningContent>
+                        <materialDesign:TransitioningContent.OpeningEffects >
+                            <materialDesign:TransitionEffect Kind="FadeIn" />
+                            <materialDesign:TransitionEffect Kind="SlideInFromBottom" />
+                        </materialDesign:TransitioningContent.OpeningEffects>
+                    </materialDesign:TransitioningContent>-->
+
+                </Grid>
+                <Grid Grid.Row="1" Margin="0,20,0,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="btnOk" Click="btnOk_Click" Grid.Column="1" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Width="100" Content="OK" ToolTip="Ok"/>
+                    <Button x:Name="btnCancel" Click="btnCancel_Click" Grid.Column="2" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Width="100" Content="Cancel" ToolTip="Cancel"/>
+                    <Button x:Name="btnYes" Click="btnYes_Click" Grid.Column="1" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Width="100" Content="Да" ToolTip="Да"/>
+                    <Button x:Name="btnNo" Click="btnNo_Click" Grid.Column="2" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Width="100" Content="Нет" ToolTip="Нет"/>
+                </Grid>
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.Core\bin\Debug\netcoreapp3.1\RentalCarApplication.Core.deps.json
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.Core\bin\Debug\netcoreapp3.1\RentalCarApplication.Core.dll
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.Core\bin\Debug\netcoreapp3.1\RentalCarApplication.Core.pdb
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.Core\obj\Debug\netcoreapp3.1\RentalCarApplication.Core.AssemblyInfoInputs.cache
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.Core\obj\Debug\netcoreapp3.1\RentalCarApplication.Core.AssemblyInfo.cs
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.Core\obj\Debug\netcoreapp3.1\RentalCarApplication.Core.csproj.CoreCompileInputs.cache
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.Core\obj\Debug\netcoreapp3.1\RentalCarApplication.Core.dll
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.Core\obj\Debug\netcoreapp3.1\RentalCarApplication.Core.pdb
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.Core\obj\Debug\netcoreapp3.1\RentalCarApplication.Core.csprojAssemblyReference.cache

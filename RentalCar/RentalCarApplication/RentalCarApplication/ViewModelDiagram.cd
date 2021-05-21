@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RentalCarApplication.Base.ViewModelBase">
+    <Position X="8.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RentalCarApplication.ViewModel.HomeAdminViewModel">
+    <Position X="3" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QM2aLcBEnIAEwAICMQDuwHK5A6gIoAIGLuQxgA7KFqw=</HashCode>
+      <FileName>ViewModel\HomeAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentalCarApplication.ViewModel.HomeUserViewModel">
+    <Position X="6.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>VJ3QjchGhIIVHBIAc0RGgC6YwCkIoMCuKc4wGAeKB6w=</HashCode>
+      <FileName>ViewModel\HomeUserViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentalCarApplication.ViewModel.LoginWindowViewModel">
+    <Position X="12.25" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAKAAAAQAQABAAACAAAAAIAECAAACABAAAAE=</HashCode>
+      <FileName>ViewModel\LoginWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentalCarApplication.ViewModel.MainWindowViewModel">
+    <Position X="9.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentalCarApplication.ViewModel.RegisterWindowViewModel">
+    <Position X="15.75" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCIQAAACAAAAAAABAAFgSAJABAAAgCAAgAEAAEAAE=</HashCode>
+      <FileName>ViewModel\RegisterWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

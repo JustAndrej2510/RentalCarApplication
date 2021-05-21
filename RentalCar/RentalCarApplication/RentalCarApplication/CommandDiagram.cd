@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RentalCarApplication.Base.CommandBase">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\CommandBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RentalCarApplication.Commands.NavigationCommand&lt;TViewModel&gt;">
+    <Position X="2" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAIAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\NavigationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentalCarApplication.Commands.RelayCommand">
+    <Position X="6" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentalCarApplication.EntityFramework.UnitOfWork">
+    <Position X="15.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="RentalCarApplication.Core.Repositories.ICarRepository" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentalCarApplication.Core.Repositories.IOrderRepository">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentalCarApplication.Core.Repositories.IRepository&lt;TEntity, TKey&gt;">
+    <Position X="11" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentalCarApplication.Core.Repositories.IUserRepository">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentalCarApplication.Core.Repositories.IUnitOfWork">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

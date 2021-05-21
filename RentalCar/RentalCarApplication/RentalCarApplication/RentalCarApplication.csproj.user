@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="View\CustomMessageBox\CustomMessageBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Update="Styles\DataGrid.xaml">
+      <SubType>Designer</SubType>
+    </Resource>
+    <Page Update="Styles\ButtonAnimation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\PasswordFieldTrigger.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CustomMessageBox\CustomMessageBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

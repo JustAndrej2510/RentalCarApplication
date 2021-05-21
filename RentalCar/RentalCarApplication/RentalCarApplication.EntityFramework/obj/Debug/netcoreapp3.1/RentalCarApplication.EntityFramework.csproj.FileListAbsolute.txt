@@ -1,0 +1,15 @@
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\bin\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.deps.json
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\bin\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.dll
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\bin\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.pdb
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\obj\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.csprojAssemblyReference.cache
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\obj\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.AssemblyInfoInputs.cache
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\obj\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.AssemblyInfo.cs
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\obj\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.csproj.CoreCompileInputs.cache
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\obj\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.dll
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\obj\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.pdb
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\bin\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.runtimeconfig.json
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\bin\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.runtimeconfig.dev.json
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\obj\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.genruntimeconfig.cache
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\bin\Debug\netcoreapp3.1\RentalCarApplication.Core.dll
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\bin\Debug\netcoreapp3.1\RentalCarApplication.Core.pdb
+D:\Учеба\2 семестр\OOP\Курсач\RentalCar\RentalCarApplication\RentalCarApplication.EntityFramework\obj\Debug\netcoreapp3.1\RentalCarApplication.EntityFramework.csproj.CopyComplete

@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="RentalCarApplication.View.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:RentalCarApplication.ViewModel"
+        xmlns:fa5="http://schemas.fontawesome.com/icons/"
+        xmlns:l="clr-namespace:RentalCarApplication.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Background = "{DynamicResource PrimaryHueDarkBrush}">
+    <!--<StackPanel>-->
+        <!--<Grid VerticalAlignment="Top">
+            --><!--<TextBlock Text="Rental Car Application" Style="{DynamicResource MaterialDesignHeadline5TextBlock}" Foreground="White"  HorizontalAlignment="Center" VerticalAlignment="Center"/>--><!--
+            <Button Style="{StaticResource MaterialDesignFloatingActionButton}" Background="White" ToolTip="MaterialDesignFloatingActionButton" HorizontalAlignment="Right" Margin="10">
+                <materialDesign:PackIcon Kind="ExitToApp" Foreground="{DynamicResource PrimaryHueDarkBrush}" Width="30" Height="30" />
+            </Button>
+        </Grid>-->
+        <Grid HorizontalAlignment="Center">
+        <Border MinWidth="500" Margin="15" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="25" CornerRadius="20" Background="White">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="20" Color="Teal" ShadowDepth="5"/>
+            </Border.Effect>
+            <StackPanel>
+                <Grid>
+                    <TextBlock Text="Регистрация" FontSize="24" FontWeight="Medium" Margin="0" HorizontalAlignment="Center"  />
+                    <Button HorizontalAlignment="Right" Style="{StaticResource MaterialDesignFlatButton}" Command="{Binding NavigateToLoginCommand}" Padding="3" Margin="0 5 0 0">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Войти" FontSize="16"/>
+                            <materialDesign:PackIcon Kind="ArrowRightBold" Margin="3 5 0 0"  />
+                        </StackPanel>
+                    </Button>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.1*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <materialDesign:PackIcon Grid.Column="0" Grid.Row="0" Kind="PersonAdd" Width="20" Height="30" Margin="0 20 5 0"/>
+                    <materialDesign:PackIcon Grid.Column="0" Grid.Row="1" Kind="PersonAdd" Width="20" Height="30" Margin="0 20 5 0"/>
+                    <materialDesign:PackIcon Grid.Column="0" Grid.Row="2" Kind="Passport" Width="20" Height="30" Margin="0 20 5 0"/>
+                    <materialDesign:PackIcon Grid.Column="0" Grid.Row="3" Kind="PassportElectronic" Width="20" Height="30" Margin="0 20 5 0"/>
+                    <materialDesign:PackIcon Grid.Column="0" Grid.Row="4" Kind="Telephone" Width="20" Height="30" Margin="0 20 5 0"/>
+                    <materialDesign:PackIcon Grid.Column="0" Grid.Row="5" Kind="Email" Width="20" Height="30" Margin="0 20 5 0"/>
+                    <materialDesign:PackIcon Grid.Column="0" Grid.Row="6" Kind="Key" Width="20" Height="30" Margin="0 20 5 0"/>
+                    <materialDesign:PackIcon Grid.Column="0" Grid.Row="7" Kind="KeyChange" Width="20" Height="30" Margin="0 20 5 0"/>
+
+                    <TextBox Text="{Binding Name}"  Grid.Column="1" Grid.Row="0" materialDesign:HintAssist.Hint="Введите Имя"   Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="18"/>
+                    <TextBox Text="{Binding Surname}" Grid.Column="1" Grid.Row="1" materialDesign:HintAssist.Hint="Введите Фамилию"  Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="18"/>
+                    <TextBox Text="{Binding Passport}" MaxLength="9" Grid.Column="1" Grid.Row="2" materialDesign:HintAssist.Hint="Введите данные паспорта"  materialDesign:HintAssist.HelperText="ABXXXXXXX" Margin="0 0 0 15" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="18"/>
+                    <TextBox Text="{Binding DriverLicense}" MaxLength="9" Grid.Column="1" Grid.Row="3" materialDesign:HintAssist.Hint="Введите номер водительского удостоверения"  materialDesign:HintAssist.HelperText="AАXXXXXXX" Margin="0 0 0 15" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="18"/>
+                    <TextBox Text="{Binding TelNumber}" MaxLength="13" Grid.Column="1" Grid.Row="4" materialDesign:HintAssist.Hint="Введите номер мобильного телефона"  materialDesign:HintAssist.HelperText="+375XXXXXXXXX" Margin="0 0 0 15" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="18"/>
+                    <TextBox Text="{Binding Email}" Grid.Column="1" Grid.Row="5" materialDesign:HintAssist.Hint="Введите логин (Email)"  Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontSize="18" />
+                    <PasswordBox x:Name="regPassword" PasswordChanged="regPassword_PasswordChanged"           Grid.Column="1" Grid.Row="6" materialDesign:HintAssist.Hint="Введите пароль"  Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"  FontSize="18"/>
+                    <PasswordBox x:Name="regPasswordCheck" PasswordChanged="regPasswordCheck_PasswordChanged" Grid.Column="1" Grid.Row="7" materialDesign:HintAssist.Hint="Подтвердите пароль"  Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"  FontSize="18"/>
+                    <Button Command="{Binding RegistrationUserCommand}" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="8" Style="{StaticResource MaterialDesignRaisedDarkButton}" Content="Зарегистрироваться" FontSize="18" Margin="15 15 0 10" />
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Grid>
+    <!--</StackPanel>-->
+</UserControl>
