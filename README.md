@@ -6,7 +6,7 @@ This is simple rental car app which base on WPF C#.
 - Repository;
 - Unit of work;
 - Abstract Factory;
-# ORM-model: 
+# ORM: 
 - Entity Framework Core with Code First for MS SQL;
 - Encryption of user password with MD5.
 # Design:
